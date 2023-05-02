@@ -427,12 +427,11 @@
             android:background="?attr/colorPrimary">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btn_compute"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:text="@string/btn_gpa_compute_text"
                 android:layout_weight="1"
-                android:onClick="onButtonClick"
                 android:textColor="#ffffff" />
 
             <TextView
